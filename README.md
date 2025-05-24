@@ -1,5 +1,4 @@
 # 🎧 Audio Fingerprinting Project
-I will be putting both Zip files and code here so you can check. If you want to test by your own then downloading Zip files and songDatabase are enough.
 ## ALGORITHM THEORY
 This project implements two fundamentally different approaches to audio fingerprinting: the Constellation Map method and a custom Chroma-Based Trend Fingerprinting method. Each approach extracts features, hashes them, and performs offset-based matching to identify songs from short clips.
 
@@ -34,7 +33,7 @@ This method performs especially well for music with clear harmonic content such 
 
 ---
 
-## 📁 PROJECT STRUCTURE
+## 📁 PROJECT STRUCTURE (I will be putting both Zip files and code here so you can check. If you want to test by your own then downloading Zip files and songDatabase are enough.)
 
 ```bash
 .
