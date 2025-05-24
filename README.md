@@ -1,4 +1,4 @@
-# 🎧 Audio Fingerprinting Project
+# 🎧 Audio Fingerprinting with Constellation Map and Chroma-Based Algorithms
 ## 🧠 ALGORITHM THEORY
 This project implements two fundamentally different approaches to audio fingerprinting: the Constellation Map method and a custom Chroma-Based Trend Fingerprinting method. Each approach extracts features, hashes them, and performs offset-based matching to identify songs from short clips.
 
