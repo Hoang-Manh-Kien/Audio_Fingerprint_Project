@@ -52,10 +52,10 @@ Key files (4 total):
 - enhanced_test.m – tests accuracy and speed
 - hash.m
 
-## Version 2 (7 total): Chroma-Based Fingerprinting
+## Version 2: Chroma-Based Fingerprinting
 Uses chroma energy, temporal differences, and rising/falling/peak pattern encoding. Binary fingerprints are hashed for offset-based matching. Robust to pitch shifts, harmonic changes, and melodic similarity.
 
-Key files:
+Key files (7 total):
 - chromaFingerprinting.m
 - identifyChromaSong.m
 - buildChromaDatabase.m
@@ -69,7 +69,7 @@ Key files:
 
 ## How to Run
 1. Clone repo and open in MATLAB in your device.
-2. Since the songDatabase folder is too heavy, I will be putting the link to the Zip Folder Drive here (or you can try making your own with varied percussions and sounds): 
+2. Since the songDatabase folder is too heavy, I will be putting the link to the Zip Folder Drive here (or you can try making your own with varied percussions and sounds):  https://drive.google.com/file/d/1NvG-1z-Tr1Puic56pLIlzd553tXfugdN/view?usp=sharing
 3. Add songDatabase folder with 50 files to the corresponding folder you are running in MATLAB
 4. Run the following in command depending on which folder you are opening:
 
