@@ -40,6 +40,7 @@ This method performs especially well for music with clear harmonic content such 
 ├── constellation-map/      # Instructor-style peak-pair hashing
 ├── chroma-based/           # Our custom chroma fingerprinting
 ├── songDatabase/           # MATLAB .mat files (50 songs)
+├── songDatabaseShort/      #in case you want to test with shorter clips
 └── README.md
 ```
 ## Version 1: Constellation Map
@@ -68,8 +69,9 @@ Key files:
 
 ## How to Run
 1. Clone repo and open in MATLAB in your device.
-2. Add songDatabase folder with 50 files to the corresponding folder you are running in MATLAB
-3. Run the following in command depending on which folder you are opening:
+2. Since the songDatabase folder is too heavy, I will be putting the link to the Zip Folder Drive here (or you can try making your own with varied percussions and sounds): 
+3. Add songDatabase folder with 50 files to the corresponding folder you are running in MATLAB
+4. Run the following in command depending on which folder you are opening:
 
 Constellation:
 - build_database()
