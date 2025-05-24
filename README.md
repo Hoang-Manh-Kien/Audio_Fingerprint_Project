@@ -46,13 +46,13 @@ This method performs especially well for music with clear harmonic content such 
 ## Version 1: Constellation Map
 Implements landmark hashing via spectrogram peak pairs (Based on the original Shazam approach). Optimized to adapt peak count to clip length.
 
-Key files:
+Key files (4 total):
 - Kien2300984.m – recognition pipeline
 - build_database.m – builds hash table (song.mat)
 - enhanced_test.m – tests accuracy and speed
 - hash.m
 
-## Version 2: Chroma-Based Fingerprinting
+## Version 2 (7 total): Chroma-Based Fingerprinting
 Uses chroma energy, temporal differences, and rising/falling/peak pattern encoding. Binary fingerprints are hashed for offset-based matching. Robust to pitch shifts, harmonic changes, and melodic similarity.
 
 Key files:
