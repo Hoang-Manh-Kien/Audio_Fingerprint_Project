@@ -7,7 +7,7 @@ This method is based on identifying local peaks in a spectrogram. First, a spect
 
 Each peak is treated as an anchor point (f1, t1) and is paired with nearby target peaks (f2, t2) within a defined target zone. The difference in frequency and time between the two peaks forms a "constellation pair." These are hashed using the formula:
 ```math
-hash = Δt * 2^16 + (f1 - 1) * 2^8 + (f2 - 1)
+hash = Δt * 2^(16) + (f1 - 1) * 2^8 + (f2 - 1)
 ```
 The hash table stores entries as [hash, time_index, songID]. During identification, a query clip is processed the same way. When matching hashes are found in the database, the difference in time indices (Δt) is computed. For each song, a histogram of time offsets is built. The song with the most consistent offset (i.e., the mode) is considered the best match.
 
